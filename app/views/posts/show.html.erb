@@ -1,0 +1,4 @@
+<div><%= render @post %></div>
+<hr>
+<%= link_to "Edit", edit_post_path(@post) %>
+<%= button_to "Delete", @post, method: :delete %>
